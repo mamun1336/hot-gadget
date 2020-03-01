@@ -42,16 +42,13 @@
     font-weight: bold;
 }
 
-.carousel-indicators--round li {
-    border-radius: 10px;
-    margin: 1px 3px;
-    height: 10px;
+.carousel-indicators li {
+    height: 5px;
     max-width: 10px;
     background-color: rgb(136, 133, 133);
 }
 .carousel-indicators .active {
     background-color: orange;
     max-width: 45px;
-    
 }
 /*------------------------------NavBar------------------------------*/
