@@ -23,32 +23,80 @@
 .row{
     padding: 10px 20px;
 }
-.banner p{
+.banner,.feature p{
     color: #707070;
 }
 .banner button{
-    padding: 5px 15px;
+    padding: 7px 10px;
     background-color: #000000;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     margin: 20px 10px;
 }
 .banner h1{
     color: #1F1F1F;
     margin: 20px 10px;
+    font-weight: bold;
 }
 .banner a{
     color: #FFFFFF;
     font-weight: bold;
 }
 
-.carousel-indicators li {
-    height: 5px;
-    max-width: 10px;
-    background-color: rgb(136, 133, 133);
-}
+
 .carousel-indicators .active {
     background-color: orange;
     max-width: 45px;
 }
 /*------------------------------NavBar------------------------------*/
+
+
+/*-----------------------------Feature------------------------------*/
+.feature{
+    margin: 30px 0px;
+}
+.intro a{
+    color: #ffce1a;
+    padding: 25px;
+}
+.feature h5{
+    color: #1F1F1F;
+    margin: 15px 10px;
+    font-weight: bold;
+}
+.feature h2{
+    color: #1F1F1F;
+    margin: 20px 10px;
+    font-weight: bold;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 15px;
+    margin: 20px 0px;
+    padding: 15px 10px 10px;
+    max-height: 685px;
+    max-width: 450px;
+    text-align: center;
+}
+.card button{
+    padding: 7px 10px;
+    background-color: #000000;
+    border-radius: 5px;
+    border: none;
+}
+.card button:hover{
+    background-color:  #ffce1a;
+}
+.card a{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+}
+.card img{
+    max-height: 280px;
+    max-width: 270px;
+}
+
+/*-----------------------------Feature------------------------------*/
