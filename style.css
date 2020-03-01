@@ -54,10 +54,12 @@
 /*-----------------------------Feature------------------------------*/
 .feature{
     margin: 30px 0px;
+    padding-bottom: 70px;
 }
 .intro a{
     color: #ffce1a;
     padding: 25px;
+    text-decoration: none;
 }
 .feature h5{
     color: #1F1F1F;
@@ -78,6 +80,7 @@
     max-height: 685px;
     max-width: 450px;
     text-align: center;
+    margin-bottom: 300px;
 }
 .card button{
     padding: 7px 10px;
@@ -98,5 +101,25 @@
     max-height: 280px;
     max-width: 270px;
 }
+.card-deck{
+    margin-bottom: 70px
+}
 
-/*-----------------------------Feature------------------------------*/
+
+/*----------------------------- Feature------------------------------*/
+/*-----------------------------Catagory------------------------------*/
+.collumn{
+    flex-direction: column
+}
+.bag,.beauty,.shoes{
+    padding: 50px 30px;
+    box-shadow: 0 0 10px ;
+    margin-top: 25px;
+    border-radius: 6px;
+    transition: .4s;
+    
+}
+.pale-order{
+    width: 100%;
+}
+/*-----------------------------Catagory------------------------------*/
